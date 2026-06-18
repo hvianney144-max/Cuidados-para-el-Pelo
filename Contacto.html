@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+<h1>📩 Contáctanos</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="importancia.html">Importancia</a></li>
+<li><a href="tipos.html">Tipos</a></li>
+<li><a href="rutina.html">Rutina</a></li>
+<li><a href="Nutrición.html">Nutrición</a></li>
+<li><a href="problemas.html">Problemas</a></li>
+<li><a href="contacto.html" class="activo">Contacto</a></li>
+</ul>
+</nav>
+
+<section class="contenido">
+
+<h2>💬 Asesoría sobre tu cabello</h2>
+<p>¿Tienes dudas sobre cómo cuidar tu cabello? Escríbenos y te ayudaremos con recomendaciones sobre cuidado, nutrición y cómo evitar el daño capilar.</p>
+<form action="https://formsubmit.co/hvianney144@gmail.com" method="POST" class="formulario">
+
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_next" value="gracias.html">
+
+<label>Nombre completo:</label><br>
+<input type="text" name="nombre" required><br><br>
+
+<label>Correo electrónico:</label><br>
+<input type="email" name="correo" required><br><br>
+
+<label>Tipo de cabello:</label><br>
+<select name="tipo_cabello" required>
+<option value="">Selecciona una opción</option>
+<option>Lacio</option>
+<option>Ondulado</option>
+<option>Rizado</option>
+<option>Seco</option>
+<option>Graso</option>
+</select><br><br>
+
+<label>¿Qué problema tienes?</label>
+<br>
+<select name="problema" required>
+<option value="">Selecciona una opción</option>
+<option>Caída del cabello</option>
+<option>Caspa</option>
+<option>Frizz</option>
+<option>Resequedad</option>
+<option>Puntas abiertas</option>
+</select>
+<br><br>
+
+<label>Mensaje:</label><br>
+<textarea name="mensaje" placeholder="Escribe tu duda o problema..." required></textarea><br><br>
+
+<input type="submit" value="Enviar consulta">
+
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="gracias.html">
+
+</form>
+
+</section>
+<a href="index.html" class="btn-volver">⬅ Volver al inicio</a>
+
+<footer>
+<p>© 2026 Guía de Cabello</p>
+</footer>
+
+</body>
+</html>
